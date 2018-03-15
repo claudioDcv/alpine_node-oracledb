@@ -1,4 +1,4 @@
-FROM node:6.11-alpine
+FROM node:8.10.0-alpine
 MAINTAINER Koji Carvalho <stylethewalker@gmail.com.br>
 
 ADD ./libs/*.zip /tmp/
